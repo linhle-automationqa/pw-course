@@ -11,5 +11,5 @@ let year = date.substring(0, 4);
 console.log("Year:", year);
 
 // 3.
-let domain = email.substring(7);
+let domain = email.substring(email.indexOf('@') + 1);
 console.log("Domain:", domain);
